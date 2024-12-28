@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Trang chủ - Tech For Viet Nam</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+
+    <header class="header">
+      <div class="logo"><img src="logo.svg" alt="" /></div>
+      <nav class="menu">
+        <div class="menu-item">
+          Về chúng tôi <i class="fa-solid fa-sort-down"></i>
+          <div class="submenu">
+            <a href="#">Giới thiệu chung</a>
+            <a href="#">Đội ngũ</a>
+            <a href="#">Tuyển dụng</a>
+          </div>
+        </div>
+        <div class="menu-item">
+          Chương trình – Dự án <i class="fa-solid fa-sort-down"></i>
+          <div class="submenu">
+            <a href="#">Chương trình phát triển giáo dục tiên phong</a>
+            <a href="#"
+              >Chương trình chạy vì giáo dục - Run for eudcation
+              <i class="fa-solid fa-sort-down"></i>
+            </a>
+          </div>
+        </div>
+        <div class="menu-item">
+          Tin tức <i class="fa-solid fa-sort-down"></i>
+          <div class="submenu">
+            <a href="#">Tin hoạt động</a>
+            <a href="#">Chuyện địa bàn</a>
+            <a href="#">Báo cáo tác động</a>
+          </div>
+        </div>
+        <div class="menu-item">
+          Hợp tác <i class="fa-solid fa-sort-down"></i>
+          <div class="submenu">
+            <a href="#">Tài trợ cá nhân</a>
+            <a href="#">Đối tác doanh nghiệp</a>
+            <a href="#">Trở thành đại sứ gây quỹ</a>
+            <a href="#">Thông tin tài khoản nhận tài trợ</a>
+          </div>
+        </div>
+        <a href="#"><button id="btn1">Ứng tuyển</button></a>
+        <a href="#"><button id="btn2">Tài trợ</button></a>
+      </nav>
+    </header>
+
+    <!-- Carousel Section -->
+    <div class="carousel">
+      <div class="carousel-images" id="carousel-images">
+        <img src="main-pics.png" alt="Image 1" width="100%" />
+        <img src="main_pics-3.png" alt="Image 2" width="100%" />
+      </div>
+      <button class="arrow left" onclick="moveSlide(-1)">&#8592;</button>
+      <button class="arrow right" onclick="moveSlide(1)">&#8594;</button>
+    </div>
+
+    <div class="content-middle">
+      <div class="content">
+        <pre>
+          <p>
+            Mỗi trẻ em đều xứng đáng có cơ hội để phát triển tối đa tiềm năng bản
+          thân. Tuy nhiên, những hạn chế trong hệ thống giáo dục đang giới hạn cơ hội
+          phát triển của trẻ
+            
+          </p>
+       </pre>
+      </div>
+      <div class="middle-pic">
+        <img src="middle.png" alt="" />
+      </div>
+      <div class="content-last"></div>
+      <div class="content-pic">
+        <img src="pic.png" alt="" style="text-align: center" />
+      </div>
+    </div>
+    <div class="last-content">
+      <h1>Giảng dạy vì Việt Nam là</h1>
+      <pre>
+        <p>
+          <b>Doanh nghiệp xã hội</b> phi lợi nhuận, hoạt động với <b>
+          <b>Doanh nghiệp xã hội</b> phi lợi nhuận, hoạt động với   sứ mệnh tìm kiếm và
+            phát triển mạng lưới các nhà giáo dục tiên phong
+          <b>Doanh nghiệp xã hội</b> phi lợi nhuận, hoạt động với </b>, những người sẽ giảng
+          dạy và đồng kiến tạo nên một nền <b>giáo dục công bằng</b> và <b>chất lượng</b> cho
+          mọi trẻ em Việt Nam.
+        </p>
+     </pre>
+    </div>
+
+    <video width="640" height="360" controls poster="pic4.webp">
+      <source
+        src="y2mate.com - Toàn cảnh về Teach For Vietnam sau 2 năm hoạt động_v720P.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+    <h1 id="content2">Tác động của chúng tôi</h1>
+    <img src="pic5.png" alt="" id="pic5" />
+    <h1>Đồng hành cùng Giảng dạy vì Việt Nam</h1>
+    <h5>
+      để tạo cơ hội phát triển tối đa tiềm năng cho mọi trẻ em thông qua kiến
+      tạo nền giáo dục đổi mới và hoàn thiện.
+    </h5>
+    <div class="container">
+      <div class="item">
+        <img src="pic-content1.png" alt="Ảnh 1" />
+        <h3>Trở thành Nhà giáo dục tiên phong</h3>
+        <p>
+          Tham gia giảng dạy và đồng kiến tạo nền giáo dục công bằng và chất
+          lượng cho mọi trẻ em Việt Nam
+        </p>
+        <button id="button">Tìm hiểu ngay</button>
+      </div>
+      <div class="item">
+        <img src="pic-content2.png" alt="Ảnh 2" />
+        <h3>Đóng góp tạo tác động</h3>
+        <p>
+          Với mỗi 300.000đ bạn sẽ cùng giúp 30 em học sinh tại vùng biên giới,
+          khó khăn được học tiếng Anh, STEM và giáo dục khởi nghiệp
+        </p>
+        <button id="button">Đóng góp ngay</button>
+      </div>
+      <div class="item">
+        <img src="pic-content3.png" alt="Ảnh 3" />
+        <h3>Hợp tác phát triển cộng đồng</h3>
+        <p>
+          Đồng hành cùng các chương trình hướng đến mục tiêu phát triển giáo dục
+          và thực hiện các chương trình CSR cho cộng đồng
+        </p>
+        <button id="button">Hợp tác ngay</button>
+      </div>
+      <div class="item">
+        <img src="pic-content4.png" alt="Ảnh 4" />
+        <h3>Phát triển sự nghiệp</h3>
+        <p>
+          Ứng tuyển các vị trí tại Giảng dạy vì Việt Nam để phát triển sự nghiệp
+          và cùng tạo tác động tích cực cho nền giáo dục nước nhà
+        </p>
+        <button id="button">Ứng tuyển ngay</button>
+      </div>
+    </div>
+    <img src="pic6.png" alt="" />
+    <div class="last-pic">
+      <h1>Đối tác của chúng tôi</h1>
+      <img src="Screenshot 2024-12-28 225245.png" alt="" />
+    </div>
+    <div class="last-pic2">
+      <h1>Tin tức mới nhất</h1>
+      <div class="container">
+        <div class="item">
+          <img
+            src="https://teachforvietnam.org/wp-content/uploads/2024/12/Thiep-chuc-doi-tac-1.png"
+            alt="Ảnh 1"
+          />
+          <h2>
+            GIẢNG DẠY VÌ VIỆT NAM CHÚC MỌI NGƯỜI GIÁNG SINH VÀ NĂM MỚI 2025
+            NHIỀU ĐIỀU TỐT LÀNH
+          </h2>
+          <p>
+            Kính gửi Quý Đối tác, Chúng tôi trân trọng gửi đến Quý Đối tác lời
+            cảm ơn chân thành nhất vì sự đồng hành và hỗ trợ quý báu trong suốt
+            năm 2024.
+          </p>
+          <button id="button">Xem thêm</button>
+        </div>
+        <div class="item">
+          <img
+            src="https://teachforvietnam.org/wp-content/uploads/2024/12/Copy-of-CUNG-MOMO.png"
+            alt="Ảnh 2"
+          />
+          <h2>
+            CHUNG TAY CÙNG GIẢNG DẠY VÌ VIỆT NAM MANG LẠI CƠ HỘI HỌC TIẾNG ANH
+          </h2>
+          <p>
+            Cùng Giảng dạy vì Việt Nam – Teach For Viet Nam mang lại cơ hội được
+            học tiếng Anh trong năm học 2024 – 2025 cho 10 em học sinh Trường
+            Tiểu học Thường Phước 2 tại Hồng Ngự, Đồng Tháp.
+          </p>
+          <button id="button">Xem thêm</button>
+        </div>
+        <div class="item">
+          <img
+            src="https://teachforvietnam.org/wp-content/uploads/2024/12/Post-fb-en-xuan.jpg"
+            alt="Ảnh 3"
+          />
+          <h2>GÓP ÉN XUÂN – ƯƠM MẦM TƯƠNG LAI 2025</h2>
+          <p>
+            Tết là mùa của đoàn viên, của tình thân và của những ước vọng mới.
+            Năm mới 2025 này, Giảng dạy vì Việt Nam mang đến những bộ lịch và
+            bao lì xì đặc biệt, được thiết kế từ những bức vẽ hồn nhiên và đầy
+            ước mơ
+          </p>
+          <button id="button">Xem thêm</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-content">
+        <h2 style="color: white">Nhận bản tin từ chúng tôi</h2>
+    <input type="text" id="buttonText" name="buttonText" placeholder="Anh/Chị" required>
+    <input type="text" id="buttonText" name="buttonText" placeholder="Họ & Tên" required>
+    <input type="text" id="buttonText" name="buttonText" placeholder="Email" required>
+    <button style="height: 50px; width: 100px;" id="last-btn">Đăng ký</button>
+    <br><br>
+  </form>
+      </div>
+    </div>
+    <footer>
+      <img src="footer.png" alt="" height="400px" width="100%">
+    </footer>
+    
+  </body>
+</html>
